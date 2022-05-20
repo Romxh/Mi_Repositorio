@@ -43,7 +43,7 @@ grid-row-gap: 2px;
 grid-column-gap: 10px;
 }
 
-.sections__nav{
+.navbar-nav:hover{
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -53,9 +53,6 @@ grid-column-gap: 10px;
  transition:  2s;
 }
 
-.sections__nav:hover{
-	height: 50%;
-}
 
 .nav-links a {
  color: #fff;
